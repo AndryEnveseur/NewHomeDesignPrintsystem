@@ -1,0 +1,118 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    --button-left-color: #CCEBFF
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    background-color: var(--button-left-color);
+    color: #474747;
+    border-radius: 7px;
+
+    margin: 15px ;
+
+    height: 50px;
+    /* width: 500px;
+    min-width: 100px; */
+
+    box-shadow: 4px 6px 15px rgb(208, 208, 208);
+}
+
+.button > .container-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+    /* border: solid rgb(188, 188, 188); */
+    /* border-width: 1px 1px 1px 0; */
+    border-radius: 0px 7px 7px 0;
+}
+
+.button > .container-icon .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    padding: 0 20px 0 0;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.text > p {
+    padding: 0 20px 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.circles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    height: 100%;
+    width: 30px;
+    overflow: hidden;
+}
+
+.circles > div:first-of-type {
+    border-radius: 0 0 100% 0;
+}
+
+.circles > div:last-of-type {
+    border-radius: 0 100% 0 0;
+}
+
+.circles > div {
+    width: 20px;
+    height: 50%;
+    transform: translateX(-5px);
+    background-color: var(--button-left-color);
+}
