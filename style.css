@@ -116,3 +116,9 @@ main {
     transform: translateX(-5px);
     background-color: var(--button-left-color);
 }
+
+@media (max-width: 500px) {
+    .button {
+        font-size: 1em;
+    }
+}
