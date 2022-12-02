@@ -80,8 +80,8 @@ body
 .icon svg
 {
 	fill: #474747;
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 }
 .text
 {
@@ -141,6 +141,7 @@ body
 	width: 20px;
 }
 
+
 @media (max-width: 500px)
 {
 	.button
@@ -149,8 +150,8 @@ body
 	}
 	.icon svg
 	{
-		height: 25px;
-		width: 25px;
+		height: 35px;
+		width: 35px;
 	}
 }
 @media (max-width: 400px)
@@ -161,7 +162,7 @@ body
 	}
 	.icon svg
 	{
-		height: 20px;
-		width: 20px;
+		height: 30px;
+		width: 30px;
 	}
 }
