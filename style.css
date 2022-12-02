@@ -99,9 +99,10 @@ body
 {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0 20px 0 30px;
+	padding: 0 0px 0 10px;
 	text-align: center;
 	text-transform: uppercase;
+	width: 100%;
 }
 .circles
 {
