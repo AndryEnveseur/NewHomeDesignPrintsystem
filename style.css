@@ -44,11 +44,8 @@ body
 	margin: 15px;
 	padding: 0;
 	text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 	width: 100%;
-}
-.button:focus 
-{
-    outline: none !important;
 }
 .button:hover
 {
